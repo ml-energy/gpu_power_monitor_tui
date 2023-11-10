@@ -2,7 +2,7 @@
 
 This is a simple command line application that displays the power draw of an NVIDIA GPU over time.
 
-YouTube video where I use this to give a live demo of [Zeus](https://ml.energy/zeus): https://youtu.be/aZoD-jgO3fE?t=747
+YouTube video where I use this to give a live demo: https://youtu.be/aZoD-jgO3fE?t=747
 
 If you need to programmatically measure GPU energy, check out the [Zeus framework](https://github.com/ml-energy/zeus). [`ZeusMonitor`](https://ml.energy/zeus/reference/monitor/energy/#zeus.monitor.energy.ZeusMonitor) is built for that.
 
