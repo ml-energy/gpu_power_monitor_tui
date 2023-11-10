@@ -7,6 +7,8 @@ YouTube video where I use this to give a live demo of [Zeus](https://ml.energy/z
 I wrote this (with the help of ChatGPT) for a live demo, so I made it extra-resilient to potential errors that might crash the program.
 The TUI should survive terminal resizing events and random curses errors.
 
+If you need a programmatic GPU energy measurement tool, check out the [Zeus repository](https://github.com/ml-energy/zeus). [`ZeusMonitor`](https://ml.energy/zeus/reference/monitor/energy/#zeus.monitor.energy.ZeusMonitor) is built for that.
+
 ## How to use
 
 This application requires NVML (`libnvidia-ml.so`) on your system. It comes together with the CUDA toolkit.
