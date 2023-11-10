@@ -4,10 +4,7 @@ This is a simple command line application that displays the power draw of an NVI
 
 YouTube video where I use this to give a live demo of [Zeus](https://ml.energy/zeus): https://youtu.be/aZoD-jgO3fE?t=747
 
-I wrote this (with the help of ChatGPT) for a live demo, so I made it extra-resilient to potential errors that might crash the program.
-The TUI should survive terminal resizing events and random curses errors.
-
-If you need a programmatic GPU energy measurement tool, check out the [Zeus repository](https://github.com/ml-energy/zeus). [`ZeusMonitor`](https://ml.energy/zeus/reference/monitor/energy/#zeus.monitor.energy.ZeusMonitor) is built for that.
+If you need to programmatically measure GPU energy, check out the [Zeus framework](https://github.com/ml-energy/zeus). [`ZeusMonitor`](https://ml.energy/zeus/reference/monitor/energy/#zeus.monitor.energy.ZeusMonitor) is built for that.
 
 ## How to use
 
